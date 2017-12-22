@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<!-- saved from url=(0028)http://www.socrazy.com/login -->
+<html class=""><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录 -  狂人学院 - 设计分享平台 </title>
+    <meta name="keywords" content=" ">
+    <meta name="description" content="狂人学院为设计而狂，引进国外先进设计理念，分享引领时代的设计趋势，通过扎实的直播教学课程，为零基础、上班族分别提供最优的PS、Ai、UI、平面、淘宝美工学习方案，让每个人成为设计狂人。">
+    <meta content="GkNKVmSnHzXZM3GLDga8IxeSPGntnsYyhKv3s1xbkbI" name="csrf-token">
+
+<link href="http://7xlubv.com2.z0.glb.qiniucdn.com/2016/1030/f487d880d03541e78f53afcef708fec7.ico" rel="shortcut icon">
+
+
+        <link href="css/main.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" media="screen" href="css/video-js-debug.css">
+        <link href="css/ucstyle.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+
+    .login-pc-panel{
+        position:relative;
+    }
+    .login-body{
+        position:absolute;
+        left:-10px;
+    }
+    .page-login .login-panel .login-body .otherLogin-block .icon-qq a{
+        background:url(images/qqwx.jpg);
+        background-position: 61% -67px;
+        width: 90.1px;
+        height: 81px;
+        display: block;
+        border-radius:20px;
+    }
+    .page-login .login-panel .login-body .otherLogin-block .icon-qq{
+         width: 90.1px;
+        height: 81px;
+    }
+    .page-login .login-panel .login-body .otherLogin-block .icon-weixin a{
+        background:url(images/qqwx.jpg);
+        background-position: -83px -69px;
+         width: 82%;
+        height: 135%;
+        display: block;
+        border-radius: 15px;
+    }
+
+     .page-login .login-panel .login-body .otherLogin-block .icon-weixin{
+        height:60px;
+        width:30px;
+    }
+
+</style>
+
+
+
+    <script src="js/hm.js"></script>
+    <!-- <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?bc70ef0d7098c32344bf257a010faa79";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script> -->  <!-- 不知道有什么用但是出错先注释 -->
+</head>
+<body style="">
+
+    <header class="header">
+        <div class="header-body">
+            <a href="http://www.socrazy.com/">
+                <img class="logo" src="images/logo2.png" alt="狂人学院">
+            </a>
+            <nav class="nav-header">
+                <ul>
+                    <li class="nav-item ">
+                        <a href="../首页/index.html">首页</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="http://www.socrazy.com/course/live">视频</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="http://www.socrazy.com/course/bigshotLive">软件</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="http://www.socrazy.com/course/explore">素材</a>
+                    </li>
+
+                    <li class="nav-login" style="display: list-item;">
+                        <a id="user-login" class="button button-transparent login-btn" href="../登录页/login.html">
+                            登录
+                        </a>
+                        <a id="user-register" class="button button-transparent reg-btn" href="../注册页/sign.html">
+                            注册
+                        </a>
+                    </li>
+                    <li class="user-cart" style="display: none;">
+                        <a href="http://www.socrazy.com/shopping/cart">
+                            <span class="icon icon-shoppingCart">
+                            <i></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="user-info" style="display: none;">
+                        <span class="nike-name">游客</span>
+                        <span class="icon icon-ornament-3"></span>
+                        <ul class="menu">
+                                                                                                                                                                                                            </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+<article class="page-container page-login clearFix">
+    <section class="login-panel clearFix login-pc-panel" style="background: url(images/logo_bg.jpg) no-repeat ; ;background-size:800px 800px;">
+        <div class="login-title">
+            <h1 class="title">登录</h1>
+            <h4 class="subtitle">欢迎加入狂人学院</h4>
+        </div>
+        <div class="login-body" style="background-color:#fff;">
+            <div class="otherLogin-block">
+                <h4>快速登录</h4>
+                <ul>
+                    <li class="icon icon-qq">
+                        <a href="http://www.socrazy.com/user/api/qqLogin/login"></a>
+                    </li>
+                    <li class="icon icon-weixin">
+                        <a href="http://www.socrazy.com/user/api/weChatLogin/login"></a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="login-block">
+                <form class="form form-login" id="login-form">
+                    <div class="form-group">
+                        <label for="login_username">
+                            手机号
+                            <em>
+                                                            </em>
+                        </label>
+                        <input id="login_username" type="text" name="_username" value="" title="" placeholder="请输入手机号">
+                        <p class="form-item-error"></p>
+                    </div>
+                    <div class="form-group">
+                        <label for="login_password">
+                            密码
+                            <em>
+                                                            </em>
+                        </label>
+                        <input id="login_password" type="password" name="_password" required="" placeholder="请输入密码">
+                        <p class="form-pwd-eye"><span class="icon icon-eye"></span></p>
+                        <p class="form-item-error"></p>
+                    </div>
+                    <div class="other-group">
+                        <input type="checkbox" title="" name="_remember_me" checked="checked"> 下次自动登录
+                        <a id="forget" href="http://www.socrazy.com/password/reset" class="linkButton linkButton-muted">忘记密码</a>
+                    </div>
+                    <div class="other-group reg-group">
+                        没有账号?赶紧<a class="linkButton linkButton-primary" href="../注册页/sign.html">注册</a>
+                    </div>
+                    <div class="alert alert-danger"></div>
+
+                    <div class="button-rhombus login-button">
+                        <span class="arrow-left"></span>
+                        <span class="arrow-right"></span>
+                        <a href="javascript:;"></a>
+                    </div>
+
+                    <meta content="GkNKVmSnHzXZM3GLDga8IxeSPGntnsYyhKv3s1xbkbI" name="csrf-token">
+                </form>
+            </div>
+        </div>
+    </section>
+</article>
+
+<div id="euiDialog-login" class="euiDialog euiDialog--form">
+    <div class="dialog-container" style="width: 432px; height: 482px; padding: 0px; margin-top: -250px; margin-left: -225px;">
+        <span class="dialog-arrow-top">
+            <i class="left" style="width: 219px; left: -225px;"></i>
+            <i class="right" style="width: 219px; right: -225px;"></i>
+        </span>
+        <span class="dialog-arrow-bottom">
+            <i class="left" style="width: 219px; left: -225px;"></i>
+            <i class="right" style="width: 219px; right: -225px;"></i>
+        </span>
+        <span class="dialog-arrow-left">
+            <i class="top" style="height: 244px; top: -250px;"></i>
+            <i class="bottom" style="height: 244px; bottom: -250px;"></i>
+        </span>
+        <span class="dialog-arrow-right">
+            <i class="top" style="height: 244px; top: -250px;"></i>
+            <i class="bottom" style="height: 244px; bottom: -250px;"></i>
+        </span>
+        <span class="dialog--close icon icon-close2"></span>
+        <div class="dialog-content"><section class="login-panel clearFix login-mob-panel"><div class="login-title"><h1 class="title">登录</h1><h4 class="subtitle">没有账号?赶紧<a class="linkButton linkButton-primary toRegButton" href="javascript:;">注册</a></h4></div><div class="login-body"><div class="login-block"><form class="form form-login" id="login-form"><div class="form-group"><label for="login_username">手机号 <em></em></label><input id="login_username" type="text" name="_username" value="" title="" placeholder="请输入手机号"><p class="form-item-error"></p></div><div class="form-group"><label for="login_password">密码 <em></em></label><input id="login_password" type="password" name="_password" required="" placeholder="请输入密码"><p class="form-pwd-eye"><span class="icon icon-eye"></span></p><p class="form-item-error"></p></div><div class="other-group"><input type="checkbox" title="" name="_remember_me" checked="checked"> 下次自动登录<a id="forget" href="javascript:;" class="linkButton linkButton-primary">忘记密码</a></div> <div class="alert alert-danger"></div><div class="button-rhombus login-button"><span class="arrow-left"></span><span class="arrow-right"></span><a href="javascript:;"></a></div><input type="hidden" name="_csrf_token" value="22t57ydFHJXXUOEl3_FUCcrsIbKVOMYMRNksc4jY5Ac"></form></div><div class="otherLogin-block"><h4>快速登录</h4><ul><li class="icon icon-qq"><a href="http://www.socrazy.com/user/api/qqLogin/login?gotohere=http%3A%2F%2Fwww.socrazy.com%2Flogin"></a></li><li class="icon icon-weixin"><a href="http://www.socrazy.com/user/api/weChatLogin/login?gotohere=http%3A%2F%2Fwww.socrazy.com%2Flogin"></a></li><li class="icon icon-weibo"><a href="http://www.socrazy.com/user/api/weiboLogin/login?gotohere=http%3A%2F%2Fwww.socrazy.com%2Flogin"></a></li></ul></div></div></section></div>
+    </div>
+
+</div>
+<div id="euiDialog-register" class="euiDialog euiDialog--form">
+    <div class="dialog-container" style="width: 432px; height: 487px; padding: 0px; margin-top: -252.5px; margin-left: -225px;">
+        <span class="dialog-arrow-top">
+            <i class="left" style="width: 219px; left: -225px;"></i>
+            <i class="right" style="width: 219px; right: -225px;"></i>
+        </span>
+        <span class="dialog-arrow-bottom">
+            <i class="left" style="width: 219px; left: -225px;"></i>
+            <i class="right" style="width: 219px; right: -225px;"></i>
+        </span>
+        <span class="dialog-arrow-left">
+            <i class="top" style="height: 246.5px; top: -252.5px;"></i>
+            <i class="bottom" style="height: 246.5px; bottom: -252.5px;"></i>
+        </span>
+        <span class="dialog-arrow-right">
+            <i class="top" style="height: 246.5px; top: -252.5px;"></i>
+            <i class="bottom" style="height: 246.5px; bottom: -252.5px;"></i>
+        </span>
+        <span class="dialog--close icon icon-close2"></span>
+        <div class="dialog-content"><section class="login-panel clearFix"><div class="login-title reg-title"><h1 class="title">注册</h1><h4 class="subtitle">已有账号,马上 <a href="javascript:;" class="linkButton linkButton-primary toLoginButton">登录</a></h4></div><div class="reg-body clearFix"><form class="form form-login" method="post" action="http://www.socrazy.com/login_check" id="login-form"><div class="form-group error-group"><label for="mobile">手机号 <em></em></label><input id="mobile" name="mobile" type="text" title="" placeholder="请输入手机号码"><p class="form-item-error"></p></div><div class="form-group"><label for="image-code">验证码 <em></em></label><input id="image-code" name="image-code" class="image-code-register-input" type="text" title="" placeholder="请输入图片验证码"><img src="./images/44f4826fc60f78ee33c8d223f7d15eac" title="换一换" class="button button-black image-code image-code-register-img"><p class="form-item-error"></p></div><div class="form-group"><label for="checkcode">手机验证码 <em></em></label><input id="checkcode" name="checkcode" type="text" title="" placeholder="请输入手机验证码"><a href="javascript:;" class="button button-black" data-url="/varificationCode" id="getCode">获取验证码</a><p class="form-item-error"></p></div><div class="form-group"><label for="password">设置密码 <em></em></label><input id="password" name="password" type="password" title="" placeholder="8~18位字母数字组合"><p class="form-pwd-eye"><span class="icon icon-eye"></span></p><p class="form-item-error"></p></div><div class="form-group"><label for="rePassword">确认密码 <em></em></label><input id="rePassword" name="pwd" type="password" title="" placeholder="请再次确认密码"><p class="form-item-error"></p></div><div class="other-group"><input type="checkbox" title="" checked="">我已阅读并接受<a href="http://www.socrazy.com/login#" class="linkButton linkButton-primary">版权声明</a>和<a href="http://www.socrazy.com/login#" class="linkButton linkButton-primary">隐私保护</a>条款</div><div class="button-rhombus reg-button"><span class="arrow-left"></span><span class="arrow-right"></span><a href="javascript:;"></a></div><div class="alert-danger"></div></form></div></section></div>
+    </div>
+
+</div>
+<div id="euiDialog-resetPwd" class="euiDialog euiDialog--form">
+    <div class="dialog-container" style="width: 432px; height: 482px; padding: 0px; margin-top: -250px; margin-left: -225px;">
+        <span class="dialog-arrow-top">
+            <i class="left" style="width: 219px; left: -225px;"></i>
+            <i class="right" style="width: 219px; right: -225px;"></i>
+        </span>
+        <span class="dialog-arrow-bottom">
+            <i class="left" style="width: 219px; left: -225px;"></i>
+            <i class="right" style="width: 219px; right: -225px;"></i>
+        </span>
+        <span class="dialog-arrow-left">
+            <i class="top" style="height: 244px; top: -250px;"></i>
+            <i class="bottom" style="height: 244px; bottom: -250px;"></i>
+        </span>
+        <span class="dialog-arrow-right">
+            <i class="top" style="height: 244px; top: -250px;"></i>
+            <i class="bottom" style="height: 244px; bottom: -250px;"></i>
+        </span>
+        <span class="dialog--close icon icon-close2"></span>
+        <div class="dialog-content"><section class="login-panel clearFix page-resetPwd"><div class="login-title reg-title"><h1 class="title">找回密码</h1><h4 class="subtitle">想起来了?马上 <a href="javascript:;" class="linkButton linkButton-primary resetPwdToLogin">登录</a></h4></div><div class="login-body reg-body clearFix"><form class="form form-login"><div class="form-group"><label for="mobile">手机号 <em></em></label><input id="repwd_mobile" name="mobile" type="text" title="" placeholder="请输入手机号码"><p class="form-item-error"></p></div><div class="form-group"><label for="image-code">验证码 <em></em></label><input id="image-code" class="image-code-resetpwd-input" name="image-code" type="text" title="" placeholder="请输入图片验证码"><img src="./images/80ad5e8401997ecefb9cbea44bbad3c5" title="换一换" class="button button-black image-code image-code-resetpwd-img"><p class="form-item-error"></p></div><div class="form-group"><label for="checkcode">验证码 <em></em></label><input id="repwd_checkcode" name="checkcode" type="text" title="" placeholder="请输入手机验证码"><a href="javascript:;" class="button button-black" data-url="/varificationCode" id="repwd_getCode">获取验证码</a><p class="form-item-error"></p></div><div class="form-group"><label for="password">设置密码 <em></em></label><input id="repwd_password" name="password" type="password" title="" placeholder="请输入密码"><p class="form-pwd-eye"><span class="icon icon-eye"></span></p><p class="form-item-error"></p></div><div class="form-group"><label for="pwd-re">确认密码 <em></em></label><input id="repwd_rePassword" name="pwd" type="password" title="" placeholder="请输入密码"><p class="form-item-error"></p></div><div class="alert-danger"></div><div class="button-rhombus reg-button"><span class="arrow-left"></span><span class="arrow-right"></span><a href="javascript:;"></a></div></form></div></section></div>
+    </div>
+
+</div>
+<div id="euiDialog-resetPwdResult" class="euiDialog euiDialog--def">
+    <div class="dialog-container" style="width: 432px; height: 297px; padding: 0px; margin-top: -157.5px; margin-left: -225px;">
+        <span class="dialog-arrow-top">
+            <i class="left" style="width: 219px; left: -225px;"></i>
+            <i class="right" style="width: 219px; right: -225px;"></i>
+        </span>
+        <span class="dialog-arrow-bottom">
+            <i class="left" style="width: 219px; left: -225px;"></i>
+            <i class="right" style="width: 219px; right: -225px;"></i>
+        </span>
+        <span class="dialog-arrow-left">
+            <i class="top" style="height: 151.5px; top: -157.5px;"></i>
+            <i class="bottom" style="height: 151.5px; bottom: -157.5px;"></i>
+        </span>
+        <span class="dialog-arrow-right">
+            <i class="top" style="height: 151.5px; top: -157.5px;"></i>
+            <i class="bottom" style="height: 151.5px; bottom: -157.5px;"></i>
+        </span>
+        <span class="dialog--close icon icon-close"></span>
+        <div class="dialog-content"><p class="euiDialog-text euiDialog--title euiDialog--success"></p> <a href="javascript:;" class="button button-black euiDialog-button">确认</a></div>
+    </div>
+
+</div>
+<div id="eduDialog-regResult" class="euiDialog euiDialog--def">
+    <div class="dialog-container" style="width: 432px; height: 297px; padding: 0px; margin-top: -157.5px; margin-left: -225px;">
+        <span class="dialog-arrow-top">
+            <i class="left" style="width: 219px; left: -225px;"></i>
+            <i class="right" style="width: 219px; right: -225px;"></i>
+        </span>
+        <span class="dialog-arrow-bottom">
+            <i class="left" style="width: 219px; left: -225px;"></i>
+            <i class="right" style="width: 219px; right: -225px;"></i>
+        </span>
+        <span class="dialog-arrow-left">
+            <i class="top" style="height: 151.5px; top: -157.5px;"></i>
+            <i class="bottom" style="height: 151.5px; bottom: -157.5px;"></i>
+        </span>
+        <span class="dialog-arrow-right">
+            <i class="top" style="height: 151.5px; top: -157.5px;"></i>
+            <i class="bottom" style="height: 151.5px; bottom: -157.5px;"></i>
+        </span>
+        <span class="dialog--close icon icon-close"></span>
+        <div class="dialog-content">
+
+        </div>
+    </div>
+
+</div>
+<div id="eduDialog-alert" class="euiDialog euiDialog--def">
+    <div class="dialog-container" style="width: 442px; height: 292px; padding: 20px; margin-top: -175px; margin-left: -250px;">
+        <span class="dialog-arrow-top">
+            <i class="left" style="width: 244px; left: -250px;"></i>
+            <i class="right" style="width: 244px; right: -250px;"></i>
+        </span>
+        <span class="dialog-arrow-bottom">
+            <i class="left" style="width: 244px; left: -250px;"></i>
+            <i class="right" style="width: 244px; right: -250px;"></i>
+        </span>
+        <span class="dialog-arrow-left">
+            <i class="top" style="height: 169px; top: -175px;"></i>
+            <i class="bottom" style="height: 169px; bottom: -175px;"></i>
+        </span>
+        <span class="dialog-arrow-right">
+            <i class="top" style="height: 169px; top: -175px;"></i>
+            <i class="bottom" style="height: 169px; bottom: -175px;"></i>
+        </span>
+        <span class="dialog--close icon icon-close"></span>
+        <div class="dialog-content"><p class="euiDialog-text euiDialog--title euiDialog--success"></p> <a href="javascript:;" class="button button-black euiDialog-button">确认</a></div>
+    </div>
+
+</div>
+
+
+    <footer class="footer footer-white">
+        <div class="footer-index-body">
+            <ul>
+                <li>
+                    <img src="images/logo-footer-black.png" alt="">
+                    <p>北京狂人时代科技发展有限公司 | 京ICP备16053675号 | <style>.anpic img{width: 47px;height:20px;}</style><a class="anpic" style="display: inline-block;vertical-align: middle;margin-left:2px;position: relative;top:-2px;" key="590fddf2efbfb043519683a5" logo_size="124x47" logo_type="business" href="https://v.pinpaibao.com.cn/authenticate/cert/?site=www.socrazy.com&amp;at=business" target="_blank"><!-- <script src="./login/aq_auth.js.下载"></script> -->
+                   <!--  不知道是什么出错先注释 -->
+                    <b id="aqLogoBISWL" style="display: none;"></b><img src="images/hy_124x47.png" alt="" width="124" height="47" style="border: none;"></a></p>
+                </li>
+                <li>
+                    <img src="images/weibo2dcode.png" alt="">
+                    <p>天猫店铺</p>
+                </li>
+                <li>
+                    <img src="images/weixin2dcode.png" alt="">
+                    <p>QQ群</p>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+
+<script>
+  var app = {};
+  app.user_id = 0;
+  app.debug = false;
+  app.version = '3.1.37';
+  app.httpHost = 'http://www.socrazy.com';
+  app.basePath = '/statics';
+  app.theme = 'default';
+  app.themeGlobalScript = '';
+  app.defaultCoursePicture = 'http://7xlsg9.com2.z0.glb.qiniucdn.com/2015/1021/original/4e31985a29d797a7ae4f70cea1e61220.png';
+  app.defaultCourseListPicture = 'http://7xlsg9.com2.z0.glb.qiniucdn.com/2015/1021/original/0f5ab60690b63c56cfc6cfcb1a6b572d.png';
+  app.jsPaths = {"common":"common","theme":"\/themes\/default\/js","customwebbundle":"\/bundles\/customweb\/js","customadminbundle":"\/bundles\/customadmin\/js"};
+    app.cookie = 'bs9u38om92dtonbti93sjs1477';
+
+//  java services
+  app.learn_services = '/learn';
+  app.client_services = '/client';
+  app.message = '/message';
+  app.course_services = '/course';
+  app.pays = '/pays';
+  app.sso = '/sso';
+  app.USER_URL = '/user';
+  app.avatarpic='/statics/bundles/customweb/images/def_avatar.jpg?3.1.37';
+
+  app.config = {"api":{"weibo":{"key":"3930330387"},"qq":{"key":"101224626"},"douban":{"key":""},"renren":{"key":""}},"cloud":{"video_player":"http:\/\/cdn.staticfile.org\/GrindPlayerCN\/1.0.2\/GrindPlayer.swf","video_player_watermark_plugin":"http:\/\/cdn.staticfile.org\/GrindPlayerCN\/1.0.2\/Watermake-1.0.3.swf","video_player_fingerprint_plugin":"http:\/\/cdn.staticfile.org\/GrindPlayerCN\/1.0.2\/Fingerprint-1.0.1.swf"},"editor_upload_path":"\/kindeditor\/upload","loading_img_path":"\/statics\/assets\/img\/default\/loading.gif?3.1.37"};
+
+  app.arguments = {};
+      app.controller = 'auth/login-inlet';
+    </script>
+<!-- <script src="js/sea.js" id="seajsnode"></script>
+<script src="js/seajs-style.js"></script>
+<script src="js/seajs-global-config.js"></script>
+
+ -->
+<script src="js/sea.js" id="seajsnode"></script>
+<script src="js/seajs-style.js"></script>
+<script src="js/seajs-global-config.js"></script>
+
+</body></html>

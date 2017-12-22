@@ -1,0 +1,505 @@
+/*
+* @Author: Marte
+* @Date:   2017-12-11 14:20:25
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-12-18 16:49:19
+*/
+/*导航开始 */
+.nav{
+      width:100%;
+      background-color: white;
+     box-shadow: 0 0 1px #666;
+
+
+}
+a:hover{
+  text-decoration:none;
+}
+.contain{
+      width:78%;
+      height:75px;
+      margin:0 auto;
+}
+.l_ico{
+      width: 171px;
+      height: 45px;
+      background: url(../images/logo2.png);
+      background-size:171px 45px;
+      margin-top:15px;
+}
+
+.ul1 li{
+      float: left;
+      height:100%;
+      margin:0px 20px;
+      font-size:15px;
+      color:#333;
+
+}
+.ul1 li a:hover{
+      text-decoration:none;
+
+
+}
+
+.ul1 .li3,.li1{
+      line-height:75px;
+}
+.ul1 .li3 a{
+      cursor: pointer;
+      color:#333;
+}
+.ul1 .li3 a:hover{
+      color:#76c78b;
+}
+
+.ul1 .li1 a{
+      color:#76c78b;
+      cursor: pointer;
+
+}
+
+
+.ul1 .cat  a  .icon_cat{
+      width:16.5px;
+      height: 16.5px;
+      background:url(../images/sprite.png) 0px 0px ;
+      display:block;
+      background-position: 67.928% 83.932%;
+    background-size: 2381.818% 2250%;
+    position:relative;
+    top:28px;
+    left:0px;
+
+}
+
+.ul1 .cat  a  .icon_cat i{
+    height: 8px;
+    min-width: 8px;
+    border-radius: 5px;
+    line-height: 15px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    font-style: normal;
+    background: #ff4442;
+    display: block;
+    position: absolute;
+    top: -1px;
+    right: -3px;
+
+}
+.ul1 .personal{
+    position: relative;
+    cursor:auto
+}
+.ul1 .personal .name{
+    font-size:14px;
+}
+.ul1 .personal .menu{
+    width: 97px;
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 15px;
+    z-index: 9999999999;
+}
+.ul1 .personal .menu .menu_top{
+    height: 38px;
+    width: 95px;
+    border: 1px solid #76c78b;
+    border-top: 0;
+    line-height: 38px;
+    text-align: center;
+    background: #fff;
+    cursor: pointer;
+    border-top: 1px solid #76c78b;
+    float: left;
+}
+.ul1 .personal .menu .menu_top:hover{
+  background-color:#76c78b ;
+
+}
+.ul1 .personal .menu .menu_top:hover a{
+
+  color:#fff;
+}
+.ul1 .personal .menu .menu_bot:hover{
+  background-color:#76c78b ;
+
+}
+.ul1 .personal .menu .menu_bot:hover a{
+
+  color:#fff;
+}
+.ul1 .personal .menu .menu_top .arrow{
+     width: 0px;
+    height: 0px;
+    position: absolute;
+    border:10px solid transparent;
+    border-bottom:10px solid #76c78b;
+    top:-20px;
+    left:56px;
+}
+
+.ul1 .personal .menu .menu_bot{
+    height: 38px;
+    width: 95px;
+    border: 1px solid #76c78b;
+    border-top: 0;
+    line-height: 38px;
+    text-align: center;
+    background: #fff;
+    cursor: pointer;
+    float: left;
+}
+.ul1 .li2{
+
+      color:#333;
+      width:150px;
+
+}
+
+.ul1 .li2 .a1{
+
+      width: 56px;
+      height: 30px;
+      border: 1px solid #666;
+      margin-top:20px;
+      line-height:30px;
+      text-align: center;
+      border-radius:5px;
+      cursor: pointer;
+      color:#333;
+}
+.ul1 .li2 .a2{
+
+      width: 56px;
+      height: 30px;
+      border: 1px solid #666;
+      margin-top:20px;
+      line-height:30px;
+       text-align: center;
+       border-radius:5px;
+       cursor: pointer;
+       color:#333;
+}
+.ul1 .li2 a:hover{
+      background-color:#999;
+      color:white;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+    left: 0;
+    z-index: 10000;
+    background-color: white;
+    box-shadow:0 0 1px #666;
+
+}
+/* 导航结束 */
+
+/* 个人中心页头部开始 */
+.perv{
+    width:100%;
+    background:#fafafa;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    position: relative;
+}
+.perv .perv_content{
+  width:71%;
+  margin:0 auto;
+}
+.perv .perv_content  img{
+     display: inline;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border-style: none;
+    vertical-align: middle;
+}
+.perv .perv_content .icon_sm{
+    position: absolute;
+    top: 98px;
+    left: 48%;
+    margin-left: 54px;
+    height: 26px;
+    width: 26px;
+    background-image: url(../images/sprite.png);
+    background-repeat: no-repeat;
+    background-position: 71.694% 69.89%;
+    background-size: 1310% 1237.5%;
+}
+.perv .perv_content  p{
+    color: #333;
+    font-size: 20px;
+    line-height: 36px;
+    padding: 10px 0 10px;
+    margin: 0 0 10px;
+}
+.perv .perv_content  a{
+    color: #999;
+    font-size: 16px;
+    width: 160px;
+    height: 40px;
+    margin: 0 auto;
+    line-height: 40px;
+    border: 1px solid #999;
+    display: block;
+}
+.perv .perv_content  a:hover{
+     text-decoration:none;
+     background-color: #ffffff;
+}
+.perv .perv_content  a .icon_arrows{
+    margin-left: 8px;
+    width:12.75px;
+    height:11.15px;
+    background-position: 99.803% 59.167%;
+    background-size: 3082.353% 3300%;
+    background-repeat: no-repeat;
+    background-image: url(../images/sprite.png);
+    display:inline-block;
+
+}
+
+/* 个人中心页头部结束 */
+
+/* 个人中心页nav开始 */
+.per_nav{
+  width:100%;
+  background-color: #eee;
+  height:69px;
+  border-bottom: 1px solid #ddd;
+
+}
+.per_nav .nav-tabs{
+  width:60%;
+  margin:0 auto;
+  height:69px;
+  background-color: #eee;
+}
+.per_nav .nav-tabs li{
+width:33.3333333%;
+border-top: 1px solid #ddd;
+}
+.per_nav .nav-tabs a{
+  height:69px;
+  border:none;
+  text-align:center;
+  line-height:60px;
+ font-size: 24px;
+ color:#666;
+  border-left: 1px solid #ddd;
+}
+.m_right{
+  margin-left: -2px;
+}
+/* 个人中心页nav结束 */
+
+/* tab栏第一屏开始 */
+.tab-content .course{
+    width:70%;
+    margin:0 auto;
+    padding:120px 0 300px;
+}
+.tab-content .course{
+  margin:0 auto;
+}
+.tab-content .course p{
+  font-size:18px;
+  color:red;
+  margin-left:368px;
+  margin-top: 10px;
+  letter-spacing:2px;
+}
+.tab-content .course .navbar-form{
+  margin-left:251px;
+}
+
+.tab-content .course .navbar-form .form-control{
+ width: 441px;
+ height: 45px;
+
+}
+.tab-content .course .navbar-form .btn{
+  height: 45px;
+}
+/* tab栏第一屏结束 */
+
+/* tab栏第二屏开始 */
+.tab-content  .tab-pane .order_top{
+  padding:120px 0 60px;
+   width:70%;
+    margin:0 auto;
+    text-align: center;
+}
+
+.tab-content  .tab-pane .order{
+    font-size: 18px;
+    color:#aaa;
+    padding:10px 0;
+
+}
+.tab-content  .tab-pane  .a_1{
+    font-size: 18px;
+}
+
+.tab-content  .tab-pane  .a_1:hover{
+  text-decoration:none;
+}
+.tab-content  .tab-pane  .ready{
+    width:50%;
+    margin:0 auto 60px;
+    text-align: center;
+
+}
+.tab-content  .tab-pane  .ready .ready_top{
+ border:1px solid #333;
+ height: 50px;
+ line-height:50px;
+ color:#333;
+ font-size: 18px;
+}
+.tab-content  .tab-pane  .ready .ready_bottom li{
+     border:1px solid #666;
+     height: 40px;
+     line-height: 40px;
+     text-align：center;
+}
+.tab-content  .tab-pane  .ready .ready_bottom li a{
+
+}
+
+
+
+/* tab栏第二屏结束 */
+
+/* tab栏第三屏开始 */
+.tab-content  .tab-pane .Collection_top{
+  padding:120px 0 60px;
+   width:70%;
+    margin:0 auto;
+    text-align: center;
+}
+
+.tab-content  .tab-pane .Collection{
+    font-size: 18px;
+    color:#aaa;
+    padding:10px 0;
+
+}
+
+.tab-content  .tab-pane  .a_1{
+    font-size: 16px;
+}
+
+.tab-content  .tab-pane  .a_1:hover{
+  text-decoration:none;
+}
+.tab-content  .tab-pane .ready_three{
+  width:88%;
+}
+.tab-content  .tab-pane .ready_three .ready_top{
+    width:40%;
+    margin: 0 auto;
+}
+.tab-content  .tab-pane .ready_three .ready_bottom li{
+    border:none;
+    height:300px;
+    float: left;
+    margin-left:3%;
+    margin-top:50px;
+
+}
+/* tab栏第三屏结束 */
+
+
+
+
+
+/* footer开始 */
+.footer{
+      width:100%;
+      background: #191919;
+      color: #fff;
+      height: 320px;
+
+}
+.footer{
+      width:100%;
+      background: #191919;
+      color: #fff;
+      height: 320px;
+
+}
+
+.footer_body{
+      width:80%;
+      margin:0 auto;
+      height: inherit;
+}
+
+.footer_body ul{
+      width: 100%;
+    margin: auto;
+    padding-top: 70px;
+    position: relative;
+}
+
+.footer_body ul li {
+    display: inline-block;
+    width: 140px;
+    margin-left: 75px;
+}
+.footer_body ul li p{
+      margin-top: 15px;
+      text-align:center;
+}
+
+.footer_body ul li:first-child {
+    width: 50%;
+    margin-left: 0;
+    float: left;
+    margin-top: 43px;
+    text-align:center;
+}
+.footer_body ul li:first-child p{
+      font-size:18px;
+          margin-top: 15px;
+}
+
+.footer_body ul li:first-child p a img{
+      width: 47px;
+      height: 20px;
+}
+
+.footer_body ul li p{
+      font-size:18px;
+}
+
+/* footer结束 */
+
+/* 返回顶部开始 */
+.go_top{
+  display:none;
+  width: 50px;
+  height: 50px;
+
+  background: url(../images/top.png);
+  position:fixed;
+  bottom:20px;
+  right:10px;
+  background-size: cover;
+
+}
+/*返回顶部结束  */
+
+
+
+

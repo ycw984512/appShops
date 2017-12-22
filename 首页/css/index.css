@@ -1,0 +1,542 @@
+/*
+* @Author: Marte
+* @Date:   2017-12-11 14:20:25
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-12-15 15:44:52
+*/
+// 导航开始
+.nav{
+      width:100%;
+      background-color: white;
+      box-shadow: 1px 0 1px #666;
+
+}
+.contain{
+      width:78%;
+      height:75px;
+      margin:0 auto;
+}
+.l_ico{
+      width: 171px;
+      height: 45px;
+      background: url(../images/logo2.png);
+      background-size:171px 45px;
+      margin-top:15px;
+}
+
+.ul1 li{
+      float: left;
+      height:100%;
+      margin:0px 20px;
+      font-size:15px;
+      color:#333;
+
+}
+.ul1 li a:hover{
+      text-decoration:none;
+
+
+}
+
+.ul1 .li3,.li1{
+      line-height:75px;
+}
+.ul1 .li3 a{
+      cursor: pointer;
+      color:#333;
+}
+.ul1 .li3 a:hover{
+      color:#76c78b;
+}
+
+.ul1 .li1 a{
+      color:#76c78b;
+      cursor: pointer;
+
+}
+.ul1 .li2{
+
+      color:#333;
+      width:150px;
+
+}
+
+.ul1 .li2 .a1{
+
+      width: 56px;
+      height: 30px;
+      border: 1px solid #666;
+      margin-top:20px;
+      line-height:30px;
+      text-align: center;
+      border-radius:5px;
+      cursor: pointer;
+      color:#333;
+}
+.ul1 .li2 .a2{
+
+      width: 56px;
+      height: 30px;
+      border: 1px solid #666;
+      margin-top:20px;
+      line-height:30px;
+       text-align: center;
+       border-radius:5px;
+       cursor: pointer;
+       color:#333;
+}
+.ul1 .li2 a:hover{
+      background-color:#999;
+      color:white;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+    left: 0;
+    z-index: 10000;
+    background-color: white;
+    box-shadow:0 0 1px #666;
+
+}
+// 导航结束
+//
+// screen1开始
+
+.screen_1 {
+      width:100%;
+}
+
+.screen_1 .screen_header{
+      width:30%;
+      margin:0 auto;
+      margin-top:60px;
+}
+.screen_1 .screen_header .title::after{
+      width: 30%;
+    content: "";
+    margin: auto;
+    padding-top: 20px;
+    border-bottom: 1px solid #ccc;
+    display: block;
+    margin-left:160px;
+}
+
+.screen_1 .screen_header .title a{
+      color:#333;
+      font-size:30px;
+      text-align:center;
+      display: inline-block;
+      width:100%;
+
+}
+
+.screen_1 .screen_header .title a:hover{
+      text-decoration: none;
+}
+
+.screen_1 .screen_body{
+      width:100%
+}
+.screen_1 .screen_body ul{
+      width:100%;
+      margin-top:60px;
+     margin-left: 1%;
+}
+
+.screen_1 .screen_body ul li{
+     width:45%;
+      float: left;
+      margin: 20px 2%;
+      border:1px solid #666;
+      box-sizing: content-box;
+      border-radius:5px;
+
+
+}
+
+.screen_1 .screen_body ul li a{
+      width:100%;
+      display:block;
+}
+.screen_1 .screen_body ul li a img{
+      width: inherit;
+      height:  inherit;
+      display:block;
+}
+
+.screen_1  .more {
+      display:block;
+      width: 170px;
+      height: 60px;
+      border:1px solid #666;
+      text-align:center;
+      line-height:60px;
+      margin: 0 auto;
+      margin-top: 48px;
+      border-radius:10px ;
+      color:#666;
+      font-size:26px;
+      font-family: normal;
+}
+.screen_1  .more:hover {
+      text-decoration:none;
+       background-color:#999;
+}
+// screen1结束
+//
+//
+// screen2开始
+
+body .screen_2 {
+      width:100%;
+      background-color:#999;
+}
+.screen_2 {
+      width:100%;
+      background-color:#f4f4f1;
+      padding-bottom: 60px;
+      margin-top:60px;
+}
+
+.screen_2 .screen_header{
+      width:30%;
+      padding-top:60px;
+      margin-top:60px;
+      margin:0 auto;
+
+}
+.screen_2 .screen_header .title::after{
+      width: 30%;
+    content: "";
+    margin: auto;
+    padding-top: 20px;
+    border-bottom: 1px solid #ccc;
+    display: block;
+    margin-left:160px;
+
+}
+
+.screen_2 .screen_header .title a{
+      color:#333;
+      font-size:30px;
+      text-align:center;
+      display: inline-block;
+      width:100%;
+
+}
+
+.screen_2 .screen_header .title a:hover{
+      text-decoration: none;
+}
+
+.screen_2 .screen_body{
+      width:100%
+}
+.screen_2 .screen_body ul{
+      width:100%;
+      margin-left:7%;
+      margin-top:60px;
+
+}
+
+.screen_2 .screen_body ul li{
+      width:28%;
+      float: left;
+      height:380px;
+      margin-left: 20px ;
+      border:1px solid #666;
+      box-sizing: content-box;
+      border-radius:5px;
+
+
+
+}
+
+.screen_2 .screen_body ul li a{
+      width:100%;
+      display:block;
+      height:100%;
+}
+.screen_2 .screen_body ul li a img{
+      width:inherit;
+      height: inherit;
+      display:block;
+}
+
+.screen_2  .more {
+      display:block;
+      width: 170px;
+      height: 60px;
+      border:1px solid #666;
+      text-align:center;
+      line-height:60px;
+      margin: 0 auto;
+      margin-top: 48px;
+      border-radius:10px ;
+      color:#666;
+      font-size:26px;
+      font-family: normal;
+}
+.screen_2  .more:hover {
+      text-decoration:none;
+       background-color:#999;
+}
+
+
+.screen_2 {
+      width:100%;
+      background-color:#f4f4f1;
+      padding-bottom: 60px;
+      margin-top:60px;
+}
+
+.screen_2 .screen_header{
+      width:30%;
+      padding-top:60px;
+      margin-top:60px;
+      margin:0 auto;
+
+}
+.screen_2 .screen_header .title::after{
+      width: 30%;
+    content: "";
+    margin: auto;
+    padding-top: 20px;
+    border-bottom: 1px solid #ccc;
+    display: block;
+    margin-left:160px;
+
+}
+
+.screen_2 .screen_header .title a{
+      color:#333;
+      font-size:30px;
+      text-align:center;
+      display: inline-block;
+      width:100%;
+
+}
+
+.screen_2 .screen_header .title a:hover{
+      text-decoration: none;
+}
+
+.screen_2 .screen_body{
+      width:100%
+}
+.screen_2 .screen_body ul{
+      width:100%;
+      margin-left:7%;
+      margin-top:60px;
+
+}
+
+.screen_2 .screen_body ul li{
+      width:28%;
+      float: left;
+      height:380px;
+      margin-left: 20px ;
+      border:1px solid #666;
+      box-sizing: content-box;
+
+
+}
+
+.screen_2 .screen_body ul li a{
+      width:100%;
+      display:block;
+      height:100%;
+}
+.screen_2 .screen_body ul li a img{
+      width:inherit;
+      height: inherit;
+      display:block;
+}
+
+.screen_2  .more {
+      display:block;
+      width: 170px;
+      height: 60px;
+      border:1px solid #666;
+      text-align:center;
+      line-height:60px;
+      margin: 0 auto;
+      margin-top: 48px;
+      border-radius:10px ;
+      color:#666;
+      font-size:26px;
+      font-family: normal;
+}
+.screen_2  .more:hover {
+      text-decoration:none;
+       background-color:#999;
+}
+// screen2结束
+
+// screen3开始
+.screen_3 {
+      width:100%;
+      background-color:#f4f4f1;
+      padding-bottom: 60px;
+      margin-top:60px;
+}
+
+.screen_3 .screen_header{
+      width:30%;
+      padding-top:60px;
+      margin-top:60px;
+      margin:0 auto;
+
+}
+.screen_3 .screen_header .title::after{
+      width: 30%;
+    content: "";
+    margin: auto;
+    padding-top: 20px;
+    border-bottom: 1px solid #ccc;
+    display: block;
+    margin-left:160px;
+
+}
+
+.screen_3 .screen_header .title a{
+      color:#333;
+      font-size:30px;
+      text-align:center;
+      display: inline-block;
+      width:100%;
+
+}
+
+.screen_3 .screen_header .title a:hover{
+      text-decoration: none;
+}
+
+.screen_3 .screen_body{
+      width:100%
+}
+.screen_3 .screen_body ul{
+      width:100%;
+      margin-left:7%;
+      margin-top:60px;
+
+}
+
+.screen_3 .screen_body ul li{
+      width:28%;
+      float: left;
+      height:380px;
+      margin-left: 20px ;
+      border:1px solid #666;
+      box-sizing: content-box;
+      border-radius:5px;
+
+
+}
+
+.screen_3 .screen_body ul li a{
+      width:100%;
+      display:block;
+      height:100%;
+}
+.screen_3 .screen_body ul li a img{
+      width:inherit;
+      height: inherit;
+      display:block;
+}
+
+.screen_3  .more {
+      display:block;
+      width: 170px;
+      height: 60px;
+      border:1px solid #666;
+      text-align:center;
+      line-height:60px;
+      margin: 0 auto;
+      margin-top: 48px;
+      border-radius:10px ;
+      color:#666;
+      font-size:26px;
+      font-family: normal;
+}
+.screen_3  .more:hover {
+      text-decoration:none;
+       background-color:#999;
+}
+/* screen3结束 */
+
+/* footer开始 */
+
+.footer{
+      width:100%;
+      background: #191919;
+      color: #fff;
+      height: 320px;
+      margin-top:60px;
+}
+
+.footer_body{
+      width:80%;
+      margin:0 auto;
+      height: inherit;
+}
+
+.footer_body ul{
+      width: 100%;
+    margin: auto;
+    padding-top: 70px;
+    position: relative;
+}
+
+.footer_body ul li {
+    display: inline-block;
+    width: 140px;
+    margin-left: 75px;
+}
+.footer_body ul li p{
+      margin-top: 15px;
+      text-align:center;
+}
+
+.footer_body ul li:first-child {
+    width: 50%;
+    margin-left: 0;
+    float: left;
+    margin-top: 43px;
+    text-align:center;
+}
+.footer_body ul li:first-child p{
+      font-size:18px;
+          margin-top: 15px;
+}
+
+.footer_body ul li:first-child p a img{
+      width: 47px;
+      height: 20px;
+}
+
+.footer_body ul li p{
+      font-size:18px;
+}
+
+/* footer结束 */
+
+.go_top{
+  display:none;
+  width: 50px;
+  height: 50px;
+
+  background: url(../images/top.png);
+  position:fixed;
+  bottom:20px;
+  right:10px;
+  background-size: cover;
+
+}
+
+
+
+
