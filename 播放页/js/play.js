@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2017-12-15 16:16:47
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-12-18 18:24:30
+* @Last Modified time: 2017-12-28 17:43:49
 */
 
 $(function() {
@@ -42,7 +42,33 @@ $(".go_top").fadeOut(200);
 
 $(".go_top").click(//定义返回顶部点击向上滚动的动画
 function(){$('html,body').animate({scrollTop:0},700);
-})
+});
+
+ $("#jquery_jplayer_1").jPlayer({
+            ready: function () {
+                  $(this).jPlayer("setMedia", {
+                        title: "Big Buck Bunny",
+                        m4v: "http://www.jplayer.org/video/m4v/Big_Buck_Bunny_Trailer.m4v",
+                        ogv: "http://www.jplayer.org/video/ogv/Big_Buck_Bunny_Trailer.ogv",
+                        webmv: "http://www.jplayer.org/video/webm/Big_Buck_Bunny_Trailer.webm",
+                        poster: "http://www.jplayer.org/video/poster/Big_Buck_Bunny_Trailer_480x270.png"
+                  });
+            },
+            swfPath: "js/jplayer",
+            supplied: "webmv, ogv, m4v",
+            size: {
+                  width: "1200px",
+                  height: "580px",
+                  cssClass: "jp-video-360p"
+            },
+            useStateClassSkin: true,
+            autoBlur: false,
+            smoothPlayBar: true,
+            keyEnabled: true,
+            remainingDuration: true,
+            toggleDuration: true
+      });
+
 
 })
 
